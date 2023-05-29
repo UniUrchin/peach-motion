@@ -1,7 +1,9 @@
-export default function Home() {
+import { Peach } from "@/components/Peach";
+
+export default function Index() {
   return (
-    <div>
-      <h1>sample</h1>
+    <div className="flex h-screen justify-center items-center">
+      <Peach />
     </div>
   );
 }
