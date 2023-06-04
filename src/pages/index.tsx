@@ -6,6 +6,10 @@ import styles from "@/styles/Index.module.css";
 export default function Index() {
   return (
     <div className="flex h-screen justify-center items-center relative">
+      <img
+        className="w-[30rem] h-[3rem] bottom-[10rem] absolute z-[60]"
+        src="/titlelogo.png"
+      />
       <Peach />
       <div className={styles.separator} />
       <Cloud1 />
